@@ -18,6 +18,6 @@ $logname = 'system'
 $level = 4 #Information
 $source = 'Microsoft Antimalware'
 $filter = "*FULL*"
-$computername = 'RCM41VQPERAPP18.medassets.com'
+$computername = '[host].[domain].com'
 
 Get-EventsByFilter -LogName $logname -Level $level -Source $source -Filter $filter -ComputerName $computername
